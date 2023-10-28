@@ -9,10 +9,7 @@ public class prime {
         for(int i = 2; i<number;i++){
             if(number%i==0){
             flag = 1;
-            }
-            
-            
-            
+            }  
         }
         if (flag == 0){
             System.out.println("Prime");
